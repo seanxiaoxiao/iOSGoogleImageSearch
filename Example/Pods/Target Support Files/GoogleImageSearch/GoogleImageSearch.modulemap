@@ -1,0 +1,6 @@
+framework module GoogleImageSearch {
+  umbrella header "GoogleImageSearch-umbrella.h"
+
+  export *
+  module * { export * }
+}

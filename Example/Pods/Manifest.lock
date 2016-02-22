@@ -1,0 +1,14 @@
+PODS:
+  - GoogleImageSearch (0.1.0)
+
+DEPENDENCIES:
+  - GoogleImageSearch (from `../`)
+
+EXTERNAL SOURCES:
+  GoogleImageSearch:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GoogleImageSearch: aabd9d06fa8c0993a6b5e9f466c92d30000a9aaf
+
+COCOAPODS: 0.39.0
