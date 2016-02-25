@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		006607331C7ECCFC008888F2 /* SXGoogleImageSearchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 006607311C7ECCFC008888F2 /* SXGoogleImageSearchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		006607341C7ECCFC008888F2 /* SXGoogleImageSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 006607321C7ECCFC008888F2 /* SXGoogleImageSearchResult.m */; };
+		006607371C7ECEA0008888F2 /* SXGoogleImageSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 006607351C7ECEA0008888F2 /* SXGoogleImageSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		006607381C7ECEA0008888F2 /* SXGoogleImageSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 006607361C7ECEA0008888F2 /* SXGoogleImageSearch.m */; };
 		40A260C46D684EE36695FDC49C374CD2 /* GoogleImageSearch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7C64A4D39C579F2F2EA7984D81CE53 /* GoogleImageSearch-dummy.m */; };
 		5191B6E952088F5D239EEBAE95541BE3 /* Pods-GoogleImageSearch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 988DDEF950FF435FD4FFB18DB6380205 /* Pods-GoogleImageSearch_Example-dummy.m */; };
-		B69EC166C6BD00240B79487C02FD85F0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A558B3E1155135B8BF7E791AFA3A6F27 /* ReplaceMe.m */; };
 		BFB4F9DBBC12DEA13053A09E480E48C4 /* Pods-GoogleImageSearch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFFC4C26068506390F36D4F356FFAEE /* Pods-GoogleImageSearch_Tests-dummy.m */; };
 		C02C815E11BBE62F85A4C5441A75E46C /* GoogleImageSearch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26C9FA8CC4521631E90FC6D87A0C301E /* GoogleImageSearch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9AEF7EA5EB3F86A9E59BC9C8BE69216 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
@@ -45,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		006607311C7ECCFC008888F2 /* SXGoogleImageSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXGoogleImageSearchResult.h; sourceTree = "<group>"; };
+		006607321C7ECCFC008888F2 /* SXGoogleImageSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXGoogleImageSearchResult.m; sourceTree = "<group>"; };
+		006607351C7ECEA0008888F2 /* SXGoogleImageSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXGoogleImageSearch.h; sourceTree = "<group>"; };
+		006607361C7ECEA0008888F2 /* SXGoogleImageSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXGoogleImageSearch.m; sourceTree = "<group>"; };
 		063A4ADCD1CFEA002432AB9D929B106D /* GoogleImageSearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GoogleImageSearch.modulemap; sourceTree = "<group>"; };
 		26C9FA8CC4521631E90FC6D87A0C301E /* GoogleImageSearch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleImageSearch-umbrella.h"; sourceTree = "<group>"; };
 		32897CC10A4313AE06E6715C0B220F74 /* Pods-GoogleImageSearch_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleImageSearch_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -63,7 +70,6 @@
 		988DDEF950FF435FD4FFB18DB6380205 /* Pods-GoogleImageSearch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleImageSearch_Example-dummy.m"; sourceTree = "<group>"; };
 		A269684B2A2EF97830DA489CFCC76CD6 /* Pods-GoogleImageSearch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoogleImageSearch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A50D3CF8ED63546D53EA915A47D68F94 /* Pods-GoogleImageSearch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleImageSearch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A558B3E1155135B8BF7E791AFA3A6F27 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		A75FC32007E60FCF4B4ECC6E27A2CFEE /* GoogleImageSearch.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleImageSearch.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E8CB402012DADCED0C75C005A70715 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB50A16BA281D06DDD11A4FF72AA0F84 /* GoogleImageSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleImageSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,7 +142,10 @@
 		0884FAAD15FB7B26A5BD519A3B5E5241 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A558B3E1155135B8BF7E791AFA3A6F27 /* ReplaceMe.m */,
+				006607311C7ECCFC008888F2 /* SXGoogleImageSearchResult.h */,
+				006607321C7ECCFC008888F2 /* SXGoogleImageSearchResult.m */,
+				006607351C7ECEA0008888F2 /* SXGoogleImageSearch.h */,
+				006607361C7ECEA0008888F2 /* SXGoogleImageSearch.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -262,6 +271,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C02C815E11BBE62F85A4C5441A75E46C /* GoogleImageSearch-umbrella.h in Headers */,
+				006607371C7ECEA0008888F2 /* SXGoogleImageSearch.h in Headers */,
+				006607331C7ECCFC008888F2 /* SXGoogleImageSearchResult.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +435,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				40A260C46D684EE36695FDC49C374CD2 /* GoogleImageSearch-dummy.m in Sources */,
-				B69EC166C6BD00240B79487C02FD85F0 /* ReplaceMe.m in Sources */,
+				006607381C7ECEA0008888F2 /* SXGoogleImageSearch.m in Sources */,
+				006607341C7ECCFC008888F2 /* SXGoogleImageSearchResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

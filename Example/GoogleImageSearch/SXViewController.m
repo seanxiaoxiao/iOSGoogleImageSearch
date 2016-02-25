@@ -7,6 +7,7 @@
 //
 
 #import "SXViewController.h"
+#import <GoogleImageSearch/GoogleImageSearch-umbrella.h>
 
 @interface SXViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[SXGoogleImageSearch sharedImageSearch] setup];
+    [[SXGoogleImageSearch sharedImageSearch] query:@"sushi"];
 }
 
 - (void)didReceiveMemoryWarning
