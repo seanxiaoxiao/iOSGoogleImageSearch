@@ -2,6 +2,8 @@
 
 A Google Image Search API. Given the keyword, this library can give you a list of the images and their thumbnails.
 
+I tried to do some monkey business here and it worked. To use this library, you don't need to use any appkey. The implementation behind the scene is to query from the normal google image search path and then use a dummy webview to hold the results in webpage. After this is done, use a javascript to parse the result in the webpage.
+
 [![CI Status](http://img.shields.io/travis/seanxiaoxiao/GoogleImageSearch.svg?style=flat)](https://travis-ci.org/seanxiaoxiao/GoogleImageSearch)
 [![Version](https://img.shields.io/cocoapods/v/GoogleImageSearch.svg?style=flat)](http://cocoapods.org/pods/GoogleImageSearch)
 [![License](https://img.shields.io/cocoapods/l/GoogleImageSearch.svg?style=flat)](http://cocoapods.org/pods/GoogleImageSearch)
