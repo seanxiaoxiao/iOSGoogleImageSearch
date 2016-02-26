@@ -8,7 +8,6 @@ To use this library, you don't need to use any appkey. The implementation behind
 
 The sample demos how to setup this library and get the results showing on a collection view.
 
-                       DESC
 [![CI Status](http://img.shields.io/travis/seanxiaoxiao/GoogleImageSearch.svg?style=flat)](https://travis-ci.org/seanxiaoxiao/GoogleImageSearch)
 [![Version](https://img.shields.io/cocoapods/v/GoogleImageSearch.svg?style=flat)](http://cocoapods.org/pods/GoogleImageSearch)
 [![License](https://img.shields.io/cocoapods/l/GoogleImageSearch.svg?style=flat)](http://cocoapods.org/pods/GoogleImageSearch)
