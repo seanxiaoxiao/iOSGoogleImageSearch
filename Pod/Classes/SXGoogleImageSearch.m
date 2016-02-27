@@ -9,6 +9,8 @@
 #import "SXGoogleImageSearch.h"
 #import "SXGoogleImageSearchResult.h"
 
+static NSString *kErrorDomain = @"GoogleImageSearchError";
+
 @interface SXGoogleImageSearch()<UIWebViewDelegate>
 
 @end
@@ -56,6 +58,14 @@
     NSString *rawResults = [_dummyWebView stringByEvaluatingJavaScriptFromString:[self _imageParseScript]];
     NSArray *results = [self _parseWebViewResults:rawResults];
     [self.delegate googleImageSearch:self didGetResults:results];
+}
+
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(nullable NSError *)error
+{
+    if ([self.delegate respondsToSelector:@selector(googleImageSearch:didFailLoadWithError:)]) {
+        NSError *error = [NSError errorWithDomain:kErrorDomain code:-1 userInfo:nil];
+        [self.delegate googleImageSearch:self didFailLoadWithError:error];
+    }
 }
 
 - (NSString *)_imageParseScript

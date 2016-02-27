@@ -14,6 +14,10 @@
 
 - (void)googleImageSearch:(SXGoogleImageSearch *)search didGetResults:(NSArray *)results;
 
+@optional
+
+- (void)googleImageSearch:(SXGoogleImageSearch *)search didFailLoadWithError:(NSError *)error;
+
 @end
 
 @interface SXGoogleImageSearch : NSObject
